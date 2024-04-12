@@ -1,0 +1,11 @@
+{
+  "name": "phase-1-project",
+  "version": "1.0.0",
+  "description": "Phase1- project This involves a web application, 10/4/2024 By Jean Sheila Wambui Wachuka Project Description :A contact Manager web application, where a user can;",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
