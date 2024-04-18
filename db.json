@@ -1,0 +1,42 @@
+{
+    "contacts": [
+      {
+        "id": 1,
+        "name": "Jean",
+        "email": "jean@gamil.com",
+        "phone": "0789562310",
+        "address": "Meru"
+      },
+      {
+        "id": 2,
+        "name": "Ann",
+        "email": "Ann@gmail.com",
+        "phone": "0756932410",
+        "address": "Nairobi"
+      }
+    ],
+    "schema": { 
+      "title": "Contact",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string",
+          "format": "email"
+        },
+        "phone": {
+          "type": "string",
+          "pattern": "^[0-9]{3}-[0-9]{3}-[0-9]{4}$"
+        },
+        "address": {
+          "type": "string"
+        }
+      },
+      "required": ["id", "name", "email", "phone", "address"]
+  }
+}
